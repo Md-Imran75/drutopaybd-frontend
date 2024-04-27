@@ -25,7 +25,7 @@ const Faq = () => {
 
             <div className="collapse collapse-arrow bg-gray-50 mb-5">
                 <input type="radio" name="my-accordion-2" />
-                <div className="collapse-title text-xl font-medium">
+                <div className="collapse-title font-semibold text-xl">
                     Where can I integrate DrutoPay BD?
                 </div>
                 <div className="collapse-content">
@@ -37,7 +37,7 @@ const Faq = () => {
             </div>
             <div className="collapse collapse-arrow bg-gray-50 mb-5">
                 <input type="radio" name="my-accordion-2" />
-                <div className="collapse-title text-xl font-medium">
+                <div className="collapse-title font-semibold text-xl">
                     Is DrutoPay BD Free?
                 </div>
                 <div className="collapse-content">
