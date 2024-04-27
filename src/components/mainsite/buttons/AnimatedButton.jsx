@@ -63,7 +63,7 @@ const EncryptButton = () => {
       }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="group relative overflow-hidden rounded-lg border-[1px]  bg-[#018bff] px-4 py-2 font-mono font-medium uppercase text-white transition-colors"
+      className="group relative overflow-hidden rounded-lg border-[1px]  bg-gradient-to-r from-[#018bff]  to-[#0068bd] px-4 py-2 font-mono font-medium uppercase text-white transition-colors"
     >
       <div className="relative z-10 flex items-center gap-2">
      

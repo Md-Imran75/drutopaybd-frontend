@@ -59,8 +59,8 @@ function Pricing() {
                             <h1 className="sm:text-4xl text-3xl font-bold mb-2 text-gray-900">Pricing</h1>
                             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Honest and affordable pricing model to help you get started easily.</p>
                             <div className="flex mx-auto border-2 border-[#018bff] rounded overflow-hidden mt-6">
-                                <button id="monthly-button" className={`py-1 px-4 focus:outline-none ${showMonthly ? 'bg-[#018bff] text-white' : ''}`} onClick={handleMonthlyClick}>Monthly</button>
-                                <button id="annually-button" className={`py-1 px-4 focus:outline-none ${!showMonthly ? 'bg-[#018bff] text-white' : ''}`} onClick={handleAnnuallyClick}>Annually</button>
+                                <button id="monthly-button" className={`py-1 px-4 focus:outline-none ${showMonthly ? 'bg-gradient-to-r from-[#018bff]  to-[#0068bd] text-white' : ''}`} onClick={handleMonthlyClick}>Monthly</button>
+                                <button id="annually-button" className={`py-1 px-4 focus:outline-none ${!showMonthly ? 'bg-gradient-to-r from-[#018bff]  to-[#0068bd] text-white' : ''}`} onClick={handleAnnuallyClick}>Annually</button>
                             </div>
                         </div>
                         <div id="monthly-packages" className={`grid md:grid-cols-3 grid-cols-1 gap-5 p-5 md:p-0 md:px-[150px] items-center flex-wrap -m-4 ${showMonthly ? '' : 'hidden'}`}>
@@ -76,7 +76,7 @@ function Pricing() {
                                                 </div>
                                                 {
                                                     m.type == 'Pro' ? <>
-                                                        <div className='border border-[#018bff] hover:bg-[#ffbb43] hover:text-white hover:border-none text-black text-xs up font-normal px-2 py-1'>
+                                                        <div className='border border-[#018bff] hover:bg-[#ffbb43] hover:text-white  text-black text-xs up font-normal px-2 py-1'>
                                                             Popular
                                                         </div>
                                                     </> : ''
@@ -151,7 +151,7 @@ function Pricing() {
                                                 </div>
                                                 {
                                                     a.type == 'Pro' ? <>
-                                                        <div className='border border-[#018bff] hover:bg-[#ffbb43] hover:text-white hover:border-none text-black text-xs up font-normal px-2 py-1'>
+                                                        <div className='border border-[#018bff] hover:bg-[#ffbb43] hover:text-white  text-black text-xs up font-normal px-2 py-1'>
                                                             Popular
                                                         </div>
                                                     </> : ''
