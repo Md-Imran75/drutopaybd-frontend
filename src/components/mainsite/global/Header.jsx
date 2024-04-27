@@ -31,10 +31,10 @@ const Header = () => {
 
                     <div className='flex items-center text-black-500'>
                         <div>
-                            <div className='px-2 bg-[#018bff] font-bold py-[3px] text-white border-r cursor-pointer border-gray-100'>Login</div>
+                            <div className='px-2 bg-[#018bff] font-bold py-[3px] text-white cursor-pointer border-gray-100'>Login</div>
                         </div>
                         <div>
-                            <div className='px-2 bg-[#018bff] font-bold py-[3px] text-white   cursor-pointer '>SignUp</div>
+                            <div className='px-2  border-r border-y border-[#018bff] font-bold py-[1.5px] text-gray-800   cursor-pointer '>SignUp</div>
 
                         </div>
                     </div>
