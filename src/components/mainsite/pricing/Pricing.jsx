@@ -51,7 +51,7 @@ function Pricing() {
     ]
 
     return (
-        <main className='border border-gray-100'>
+        <main>
             <div className="second-section bg-white">
                 <section className=" body-font overflow-hidden">
                     <div className="container px-5 py-10 mx-auto">
@@ -63,7 +63,7 @@ function Pricing() {
                                 <button id="annually-button" className={`py-1 px-4 focus:outline-none ${!showMonthly ? 'bg-[#018bff] text-white' : ''}`} onClick={handleAnnuallyClick}>Annually</button>
                             </div>
                         </div>
-                        <div id="monthly-packages" className={`grid md:grid-cols-3 grid-cols-1 gap-5 p-2 md:p-0 md:px-[150px] items-center flex-wrap -m-4 ${showMonthly ? '' : 'hidden'}`}>
+                        <div id="monthly-packages" className={`grid md:grid-cols-3 grid-cols-1 gap-5 p-5 md:p-0 md:px-[150px] items-center flex-wrap -m-4 ${showMonthly ? '' : 'hidden'}`}>
                             {/* Monthly packages */}
 
                             {
@@ -139,7 +139,7 @@ function Pricing() {
 
 
                         </div>
-                        <div id="annually-packages" className={`grid md:grid-cols-3 grid-cols-1 gap-5 p-2 md:p-0 md:px-[150px] items-center flex-wrap -m-4 ${showMonthly ? 'hidden' : ''}`}>
+                        <div id="annually-packages" className={`grid md:grid-cols-3 grid-cols-1 gap-5 p-5 md:p-0 md:px-[150px] items-center flex-wrap -m-4 ${showMonthly ? 'hidden' : ''}`}>
                             {/* Annually packages */}
                             {
                                 annually?.map((a, i) => (
