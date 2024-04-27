@@ -24,7 +24,7 @@ const Header = () => {
                     <div className=' md:flex text-gray-800 text-[15px] justify-center  font-bold gap-5 md:visible hidden items-center'>
                         <div className={`${pathname === '/' ? 'text-white bg-gradient-to-r py-1 px-2 rounded-md from-[#018bff]  to-[#0068bd]' : ''}`}><Link to={'/'}>Home</Link></div>
                         <div className={`${pathname === '/about' ? 'text-white bg-gradient-to-r py-1 px-2 rounded-md from-[#018bff]  to-[#0068bd]' : ''}`}><Link to={'/about'}>About</Link></div>
-                        <div className={`${pathname === '/price' ? 'text-white bg-gradient-to-r py-1 px-2 rounded-md from-[#018bff]  to-[#0068bd]' : ''}`}><Link to={'/pricing'}>Pricing</Link></div>
+                        <div className={`${pathname === '/pricing' ? 'text-white bg-gradient-to-r py-1 px-2 rounded-md from-[#018bff]  to-[#0068bd]' : ''}`}><Link to={'/pricing'}>Pricing</Link></div>
                         <div className={`${pathname === '/documentation' ? 'text-white bg-gradient-to-r py-1 px-2 rounded-md from-[#018bff]  to-[#0068bd]' : ''}`}><Link to={'/documentation'}>Documentation</Link></div>
 
 

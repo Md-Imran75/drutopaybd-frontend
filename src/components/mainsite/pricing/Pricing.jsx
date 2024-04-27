@@ -76,7 +76,7 @@ function Pricing() {
                                                 </div>
                                                 {
                                                     m.type == 'Pro' ? <>
-                                                        <div className='border border-[#018bff] hover:bg-[#ffbb43] hover:text-white  text-black text-xs up font-normal px-2 py-1'>
+                                                        <div className='border border-[#018bff]   text-black text-xs up font-normal px-2 py-1'>
                                                             Popular
                                                         </div>
                                                     </> : ''
