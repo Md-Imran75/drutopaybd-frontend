@@ -157,7 +157,7 @@ function Pricing() {
                                                     </> : ''
                                                 }
                                             </div>
-                                            <div className='mb-10 mt-2'>BDT <span className='text-4xl'>{a.price}</span> /year </div>
+                                            <div className='mb-10 mt-2'>BDT <span className='text-4xl font-bold'>{a.price}</span> /year </div>
 
                                             <div>
                                                 <p class="flex items-center  mb-2">
